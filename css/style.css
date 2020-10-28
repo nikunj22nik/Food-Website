@@ -1,0 +1,306 @@
+ *{
+            margin:0px;
+    padding:0px;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+#navbar{
+display:flex;
+align-items:center;
+position:sticky;
+top:0px;
+
+}
+
+/*navbar: Logo and Images */
+
+#logo{
+    margin:10px 34px;
+}
+
+#logo img{
+    margin:3px 6px;
+    height:80px;
+    border-radius:50%;
+
+}
+/* Navigation Bar list styling */
+
+
+#navbar ul{
+    display:flex;
+}
+#navbar::before{
+    content:"";
+    background-color:black;
+    position:absolute;
+    height:100%;
+    width:100%;
+    z-index:-1;
+    opacity:0.6;
+}
+
+
+
+#navbar ul li{
+  
+    list-style:none;
+    font-size:1.3rem;
+}
+
+#navbar ul li a{
+    
+    
+    border-radius:20px;
+     display:block;
+text-decoration:none;
+padding:3px 22px;
+
+color:white;
+    }
+
+
+    #navbar ul li a:hover{
+       color:black;
+       background-color:white;
+        }
+
+        /* Home section */
+#home{
+    display:flex;
+    flex-direction: column;
+    padding:3px 200px;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+#home::before{
+     content:"";
+    position:absolute;
+        z-index:-1;
+        width:100%;
+       top:0px;
+       left:0px;
+        height:623px;
+        opacity:0.70;
+        background:url("food.jpg") no-repeat center center/cover;
+    }
+#home h1{
+    color:white;
+    text-align:center;
+}
+#home p{
+    color:white;
+    text-align:center;
+    font-size:1.2rem;
+}
+/* Services Sections */
+#services{
+    margin:34px;
+    display:flex;
+}
+#services .box{
+    border:2px solid brown;
+    margin:10px 20px;
+    height:400px;
+    border-radius:20px;
+    padding:10px;
+background-color:burlywood;
+}
+#services .box img{
+    height:150px;
+    margin:auto;
+    display:block;
+margin-top:10px;
+
+}
+
+/* client-section */
+
+#client-section{
+  
+    position:relative;
+}
+#clients
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#client-section::before{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:100%;
+    background:url("../img/bg.jpg")no-repeat center center/cover;
+    z-index:-1;
+    opacity:0.3;
+}
+
+
+#client-section img{
+    height:130px;
+}
+#client-item{
+    padding:20px;
+}
+
+/* Contact sections */
+#contact{
+    position:relative;
+}
+#contact::before{
+    content:"";
+    position:absolute;
+    
+    height:100%;
+    width: 100%;
+    z-index:-1;
+background:url("../img/contact.jpg")no-repeat center center/cover;
+}
+
+.contactbox{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+
+}
+
+.contactbox input,textarea{
+    width:100%;
+    padding:15px;
+    border-radius:9px;
+}
+
+.contactbox form{
+    width:40%;
+}
+
+.contactbox label{
+    font-size:1.4rem;
+}
+.contactbox .btnm{
+    padding:8px 40px;
+    background-color:brown;
+    color:white;
+
+    display:block;
+    margin:auto;
+    border-radius:7px;
+    margin-bottom: 20px;;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* fotter */
+
+footer{
+background-color:black;
+color:white;
+padding:3px 10px;
+}
+
+/* utility class */
+
+
+.h-primary{
+    font-size: 3.8rem;
+    padding:12px;
+}
+.h-secondary{
+    font-size:2.8rem;
+    padding:12px;
+}
+.btn{
+    padding:6px 20px;
+border:2px solid white;
+background-color:brown;
+color:white;
+margin:3px;
+font-size:1.3rem;
+border-radius:10px;
+cursor:pointer;
+}
+.center{
+    text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
